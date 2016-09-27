@@ -53,6 +53,6 @@ https://download.jetbrains.com/python/pycharm-community-2016.2.3.exe
 
 ##Contatos
 * Twitter: @_iamleofc
-* Facebook: http://facebook.com/leonardo.couy
+* Facebook: http://facebook.com/leonardo.claw
 * Blog: http://leonardocouy.com
 * Email: leonardocouy@hotmail.com
