@@ -1,0 +1,188 @@
+>>> primeiro_nome = "Paulo"
+>>> Primeiro_Nome = "Paulo"
+>>> primeiro_nome
+'Paulo'
+>>> Primeiro_Nome
+'Paulo'
+>>> Primeiro_Nome = "Leo"
+>>> primeiro_nome
+'Paulo'
+>>> Primeiro_Nome = "Paulo"
+>>> Primeiro_Nome = "Leo"
+>>> Primeiro_Nome
+'Leo'
+>>> primeiro_nome = 1
+>>> type(primeiro_nome)
+<class 'int'>
+>>> import keyword
+>>> print (keyword.kwlist)
+['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+>>> False = 40
+  File "<stdin>", line 1
+SyntaxError: can't assign to keyword
+>>> idade = 18
+>>> type(idade)
+<class 'int'>
+>>> idade
+18
+>>> idade = "18"
+>>> type(idade)
+<class 'str'>
+>>> int(idade)
+18
+>>> idade = 18.60
+>>> type(idade)
+<class 'float'>
+>>> n_complexo = 1j * 1.1j
+>>> n_complexo
+(-1.1+0j)
+>>> type(n_complexo)
+<class 'complex'>
+>>> 2 + 2
+4
+>>>
+>>>
+>>> 2 + 2
+4
+>>> 4 + 2
+6
+>>> _ + 2
+8
+>>> idade = 18.60
+>>> dir(idade)
+['__abs__', '__add__', '__bool__', '__class__', '__delattr__', '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getformat__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__int__', '__le__', '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__', '__pos__', '__pow__', '__radd__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rmod__', '__rmul__', '__round__', '__rpow__', '__rsub__', '__rtruediv__', '__setattr__', '__setformat__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', 'as_integer_ratio', 'conjugate', 'fromhex', 'hex', 'imag', 'is_integer', 'real']
+>>> round(idade)
+19
+>>> idade = 18.60
+>>> idade = int(idade)
+>>> idade
+18
+>>> idade = float(idade)
+>>> idade
+18.0
+>>> 40 % 2
+0
+>>> 39 % 2
+1
+>>> 2 ** 2
+4
+>>> 2 ** 3
+8
+>>> idade += 1
+>>> idade
+19.0
+>>> idade = idade + 1
+>>> idade += 1
+>>> idade
+21.0
+>>> idade = idade + 1
+>>> idade
+22.0
+>>> idade = idade - 1
+>>> idade
+21.0
+>>> idade -= idade
+>>> idade = 21
+>>> idade -= 1
+>>> idade
+20
+>>> o_leo_gente_boa = True
+>>> o_leo_gente_boa
+True
+>>> type(o_leo_gente_boa)
+<class 'bool'>
+>>> o_leo_gente_boa = False
+>>> o_leo_gente_boa
+False
+>>> 20 > 30
+False
+>>> 30 >= 30
+True
+>>> 30 < 40
+True
+>>> 30 <= 30
+True
+>>> 30 <= 29
+False
+>>> 30 == 30
+True
+>>> 30 != 99
+True
+>>> 30 is not 40
+True
+>>> 30 is 30
+True
+>>> 30 is 40
+False
+>>> 30 and 40 is 60
+False
+>>> 30 or 40 > 60
+30
+>>> 30 or 40 is 60
+30
+>>> 30 or 40
+30
+>>> (30 > 40) or (20 < 40)
+True
+>>> nome = "Una Bom Despacho"
+>>> len(nome)
+16
+>>> nome[0]
+'U'
+>>> nome[q]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'q' is not defined
+>>> nome[1]
+'n'
+>>> nome[16]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: string index out of range
+>>> nome[0:3]
+'Una'
+>>> nome[0:3]
+'Una'
+>>> nome[0:2]
+'Un'
+>>> nome[4:7]
+'Bom'
+>>> nome[0:1:1]
+'U'
+>>> nome[0:3:1]
+'Una'
+>>> nome[0:3:2]
+'Ua'
+>>> nome[:3]
+'Una'
+>>> nome[0:3]
+'Una'
+>>> nome[:3]
+'Una'
+>>> nome[-1:6]
+''
+>>> nome[-1:2]
+''
+>>> nome[:-1]
+'Una Bom Despach'
+>>> nome[::-1]
+'ohcapseD moB anU'
+>>> nome[::1]
+'Una Bom Despacho'
+>>> idade = 21
+>>> nome = "Leo"
+>>> dinheiro = 10.0
+>>> print ("O %s tem %d anos e possui APENAS R$%0.2f na carteira" %(nome, idade, dinheiro))
+O Leo tem 21 anos e possui APENAS R$10.00 na carteira
+>>> print ("O {} tem {} anos e possui APENAS R${:0.2f} reais na carteira".format(nome, idade, dinheiro))
+O Leo tem 21 anos e possui APENAS R$10.00 reais na carteira
+>>> nome = "leo"
+>>> nome = "leo" + 3
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: Can't convert 'int' object to str implicitly
+>>> nome = "leo" + " gente boa "
+>>> nome
+'leo gente boa '
+>>> nome*10
+'leo gente boa leo gente boa leo gente boa leo gente boa leo gente boa leo gente boa leo gente boa leo gente boa leo gente boa leo gente boa '
